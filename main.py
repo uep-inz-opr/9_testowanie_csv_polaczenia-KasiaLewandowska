@@ -3,8 +3,8 @@ import csv
 if __name__ == '__main__':
     class MenadzerPolaczen:
         def __init__(self, filename):
-      self.filename = filename
-      self.data_dict = self.read_data()
+            self.filename = filename
+            self.data_dict = self.read_data()
 
         def read_data(self):
             calls_dict_sum = dict()
@@ -22,7 +22,7 @@ if __name__ == '__main__':
         def pobierz_najczesciej_dzwoniacego(self):
             return max(self.data_dict.items(), key= lambda x: x[1]
 
-        print(Polaczenia(input()).pobierz_najczesciej_dzwoniacego())
+    print(Polaczenia(input()).pobierz_najczesciej_dzwoniacego())
 
 
 
