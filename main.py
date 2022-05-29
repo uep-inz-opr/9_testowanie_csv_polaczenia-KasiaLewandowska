@@ -22,7 +22,7 @@ if __name__ == '__main__':
         def pobierz_najczesciej_dzwoniacego(self):
             return max(self.data_dict.items(), key= lambda x: x[1]
 
-    print(Polaczenia(input()).pobierz_najczesciej_dzwoniacego())
+    print(MenadzerPolaczen(input()).pobierz_najczesciej_dzwoniacego())
 
 
 
